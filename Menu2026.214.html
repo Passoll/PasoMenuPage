@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>定制晚宴菜单</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Times New Roman", serif;
+        }
+
+        body {
+            background-color: #8B0000;
+            color: #F5F5DC;
+            line-height: 1.6;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .menu-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #A52A2A;
+        }
+
+        .menu-title h1 {
+            font-size: 2.2rem;
+            font-weight: 400;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+        }
+
+        .menu-title .date {
+            font-size: 1rem;
+            color: #D2B48C;
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+
+        .course-section {
+            margin-bottom: 2.5rem;
+        }
+
+        .course-title {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            color: #FFE4B5;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-left: 3px solid #CD5C5C;
+            padding-left: 1rem;
+        }
+
+        .dish {
+            margin-bottom: 1.2rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 1px dotted #A52A2A;
+        }
+
+        .dish-name {
+            font-size: 1.1rem;
+            font-weight: 400;
+            display: block;
+        }
+
+        .dish-name-en {
+            font-size: 0.9rem;
+            color: #D2B48C;
+            font-style: italic;
+            margin: 0.2rem 0 0.4rem 0;
+            display: block;
+        }
+
+        .dish-ing {
+            font-size: 0.85rem;
+            color: #E6D2B9;
+            line-height: 1.4;
+            display: block;
+        }
+
+        .chef-info {
+            text-align: center;
+            margin-top: 4rem;
+            padding-top: 1rem;
+            border-top: 1px solid #A52A2A;
+            font-size: 1rem;
+            color: #D2B48C;
+            font-style: italic;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+            .menu-title h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu-title">
+    <h1>Mr.Paso House</h1>
+    <p>Valentine Menu</p>
+    <p>诚邀二女生品鉴</p>
+    <p class="date">2026.02.14</p>
+</div>
+
+<div class="course-section">
+    <h2 class="course-title">前菜 / Appetizer</h2>
+    <div class="dish">
+        <span class="dish-name">牛油果甜虾薄片塔塔</span>
+        <span class="dish-name-en">Carpaccio di Gambero e Avocado</span>
+        <span class="dish-ing">加拿大甜虾 · 中国云南牛油果</span>
+    </div>
+</div>
+
+<div class="course-section">
+    <h2 class="course-title">主菜 / Main Course</h2>
+    <div class="dish">
+        <span class="dish-name">山海烩饭</span>
+        <span class="dish-name-en">Risotto ai Frutti di Mare con Sugo di Carne</span>
+        <span class="dish-ing">5A 牛排油脂 · 中国舟山花蛤 · 泰国黑虎虾 · 帕马森芝士</span>
+    </div>
+    <div class="dish">
+        <span class="dish-name">惠灵顿牛排</span>
+        <span class="dish-name-en">Filetto di Manzo alla Wellington</span>
+        <span class="dish-ing">澳大利亚精选 5A 2kg 菲力精修 · 自制黑松露杂菌酱 · 帕尔玛火腿 </span>
+    </div>
+</div>
+
+<div class="course-section">
+    <h2 class="course-title">饮品 / Beverage</h2>
+    <div class="dish">
+        <span class="dish-name">夏日柠檬气泡水</span>
+        <span class="dish-name-en">Limonata Frizzante d'Estate</span>
+    </div>
+</div>
+
+<div class="course-section">
+    <h2 class="course-title">甜点 / Dessert</h2>
+    <div class="dish">
+        <span class="dish-name">时令香蕉塔 · 荞麦干酪冰淇淋</span>
+        <span class="dish-name-en">Torta di Banana con Gelato di Grano Saraceno e Formaggio</span>
+        <span class="dish-ing">上海卖光的</span>
+    </div>
+</div>
+
+<div class="chef-info">
+    Chef: Paso
+</div>
+
+</body>
+</html>
